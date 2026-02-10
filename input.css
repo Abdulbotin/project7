@@ -148,7 +148,30 @@ display: flow-root;
     margin: auto;
     margin-top: 80px;
 }
+.l{
+    background-color: #476178;
+    width: 500px;
+    height: 525px;
+    color: white;
+}
+.a{
+  display: flex;
+  
+ 
+}
+.s{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.d{
+margin-left: 100px;
+}
+
 @media (max-width: 700px){
+    .a{
+       display: none;
+    }
     .k{
         flex-direction: column;
         gap: 50px;
